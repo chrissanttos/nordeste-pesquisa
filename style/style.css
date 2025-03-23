@@ -1,0 +1,9 @@
+@import url(global.css);
+
+body{
+    height: 100vh;
+    background-image: url(../image/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bebas Neue", sans-serif;
+}
