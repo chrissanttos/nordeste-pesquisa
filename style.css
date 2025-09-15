@@ -2,6 +2,7 @@
 
 
 body{
+    overflow: hidden;
     font-family:"Poppins", sans-serif;
     background-color:#050A0D ;
     color: white;
