@@ -1,0 +1,96 @@
+@import url(global.css);
+
+
+body{
+    font-family:"Poppins", sans-serif;
+    background-color:#050A0D ;
+    color: white;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grup{
+    border: 1px solid white;
+    border-radius: 60px;
+    text-align: center;
+    height: 80%;
+    padding: 30px;
+    
+}
+.grup > img{
+    width: 50%;
+}
+
+.form__grup > fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.form__grup > fieldset > legend{
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.input-grup{
+    display: flex;
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 15px auto;
+}
+
+.input-grup > i{
+    font-size: 25px;
+}
+
+.input-grup  > input{
+    border:none ;
+    background-color: transparent;
+}
+
+.input-grup  > input#email, input#password{
+    font-size: 1.2em;
+    padding-left: 10px;
+    color: white;
+    width: 90%;
+}
+
+.input-grup  > input:focus{
+    outline: none;
+}
+
+.Esqueceu{
+    width: 19.63em;
+    padding-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    justify-self: flex-start;
+    align-self: flex-end;
+}
+
+.Esqueceu:hover{
+    text-decoration: underline;
+}
+
+button{
+    background-color: #C49132;
+    margin: auto;
+    width: 70%;
+    font-size: 1.4em;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.criar{
+    color: white;
+    padding-top: 20px;
+    font-size: 1.4em;
+}
+.criar:hover{
+    text-decoration: underline;
+}
